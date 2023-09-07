@@ -1,0 +1,9 @@
+@media screen and (max-width: 800px) {
+    .edit_content_preview {
+        display: none;
+    }
+    .edit_content_space {
+        display: none;
+    }
+
+}

@@ -1,0 +1,32 @@
+html.dark {
+
+    color-scheme: dark;
+    --login-bg-color: #282828;
+    --home-bg-color: #282828;
+    --home-file-list-bg-color: black;
+    --home-file-list-text-color: white;
+    --home-file-list-hover-color: #fefefe;
+    --shadow-color: var(--el-box-shadow-light);
+    /*设置 vue 的主题，light 或者 dark*/
+
+    /*猜测是vue dark 主题下 element 组件的背景颜色*/
+
+    /*--el-bg-color: green;*/
+
+}
+/*html.dark .el-button {*/
+/*    !*vue dark 主题下 element 禁用按钮的文字颜色*!*/
+
+/*    !*--el-button-disabled-text-color: red;*!*/
+
+/*}*/
+
+html {
+    color-scheme: light;
+    --login-bg-color: white;
+    --home-bg-color: #f7f8fa;
+    --home-file-list-bg-color: white;
+    --home-file-list-text-color: #11181c;
+    --home-file-list-hover-color: rgba(132, 133, 141, 0.18);
+    --shadow-color: 0 10px 15px -3px rgb(0 0 0 / 0.09), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}

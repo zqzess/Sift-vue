@@ -1,0 +1,21 @@
+@media screen and (max-width: 500px) {
+    .mediaHide {
+        display: none;
+    }
+    .mediaHide2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) and (min-height: 700px) {
+
+}
+
+@media screen and (max-width: 850px){
+    .body_file_list_item_text {
+        text-align: center;
+    }
+    .mediaHide {
+        display: none;
+    }
+}

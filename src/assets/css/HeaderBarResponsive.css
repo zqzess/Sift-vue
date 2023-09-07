@@ -1,0 +1,42 @@
+@media screen and (max-width: 500px) {
+    .disk_progress_left_text {
+        display: none;
+    }
+
+    .disk_progress_right_text {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 600px) and (min-height: 700px) {
+    /*.disk_progress_left_text{display:none; }*/
+    /*.disk_progress_right_text{display:none; }*/
+}
+
+@media only screen and (max-height: 590px){
+    .header_item.mediaHide_headerBar {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .header_item.mediaHide_headerBar {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 0px)  and (max-width: 1000px){
+    #header_item_icon_box {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1001px){
+    .header_item.header_item_user {
+        display: none;
+    }
+    .header_item.header_item_set {
+        display: none;
+    }
+}
